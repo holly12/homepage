@@ -1,0 +1,38 @@
+.grey {
+  background-color: #EEEEEE;
+}
+
+h1, h2 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p, figcaption {
+  font-family: "Merriweather"
+}
+
+figure {
+  margin: 0;
+}
+
+article {
+/*  border-bottom: 1px solid #eeeeee;
+  margin: 20px 0 30px;
+  padding-bottom: 39px;
+*/}
+
+article h2 {
+  text-align: center;
+}
+
+a {
+  color: #FF0000;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+figcaption {
+  /*background-color: #cccccc;*/
+}

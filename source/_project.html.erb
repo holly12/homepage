@@ -1,0 +1,18 @@
+<article>
+  <h2><%= name %></h2>
+  <p><%= description %></p>
+  <p>
+    <img src="<%= images.first %>">
+  </p>
+  <div class="row">
+    <% images.each do |image| %>
+      <div class="large-4 columns">
+        <p>
+          <a href="#" class="<%= 'selected' if image == images.first %>">
+            <img src="<%= image %>">
+          </a>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</article>
