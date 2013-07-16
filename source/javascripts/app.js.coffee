@@ -15,6 +15,8 @@
 #= require "foundation/foundation.section"
 #= require "foundation/foundation.topbar"
 
+#= require "screenshots"
+
 (($, window, undefined_) ->
   "use strict"
   $doc = $(document)

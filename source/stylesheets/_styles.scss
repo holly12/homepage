@@ -7,11 +7,19 @@ h1, h2 {
 }
 
 p, figcaption {
-  font-family: "Merriweather"
+  font-family: "Merriweather";
 }
 
-figure {
-  margin: 0;
+p.screenshot.small {
+  padding-bottom: 5px;
+
+  &.selected {
+    border-bottom: 5px solid #DDDDDD;
+  }
+
+  &:hover {
+    border-bottom: 5px solid #FF0000;
+  }
 }
 
 article {
