@@ -7,9 +7,9 @@
   <div class="row">
     <% images.each do |image| %>
       <div class="large-4 columns">
-        <p class="screenshot small <%= 'selected' if image == images.first %>">
+        <p class="screenshot small">
           <a href="#">
-            <img src="<%= image %>">
+            <img src="<%= image %>" class="<%= 'selected' if image == images.first %>">
           </a>
         </p>
       </div>
