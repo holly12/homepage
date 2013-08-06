@@ -3,19 +3,5 @@ title: Kevin Bongart
 ---
 
 = partial "header"
-
-.row
-  .large-12.columns
-    = partial("project", locals: { name: "WatchThis",
-      description: "We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.",
-      images: ["images/watchthis_my_movies.png",
-        "images/watchthis_lost_in_translation.png",
-        "http://f.cl.ly/items/2x2V0d2F0v290G0E0j3g/breezi_placeit-4.png"]})
-
-    %hr
-
-    = partial("project", locals: { name: "ChallengePost",
-        description: "We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.",
-        images: ["http://s3.amazonaws.com/place-it/public/uploads/productshot/657013/breezi_placeit.png",
-          "http://f.cl.ly/items/3d203C2e1W072A2B0J1V/breezi_placeit-3.png",
-          "http://s3.amazonaws.com/place-it/public/uploads/productshot/658822/breezi_placeit.png"]})
+= partial "watchthis"
+= partial "challengepost"

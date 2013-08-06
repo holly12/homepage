@@ -1,9 +1,0 @@
-- name: WatchThis
-  description: >
-    We're stoked you want to try Foundation!
-    To get going, this file (index.html) includes some basic styles you can modify,
-    play around with, or totally destroy to get going.
-  images:
-    - images/watchthis_my_movies.png
-    - images/watchthis_lost_in_translation.png
-    - http://f.cl.ly/items/2x2V0d2F0v290G0E0j3g/breezi_placeit-4.png
