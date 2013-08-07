@@ -1,45 +1,10 @@
 h1, h2 {
-  font-family: "Open Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-p, figcaption {
-  font-family: "Merriweather";
-}
-
-.screenshot.small {
-  &:first-child img {
-    margin-left: 0;
-  }
-
-  &:last-child img {
-    margin-right: 0;
-  }
-
-  img {
-    margin: auto;
-    max-height: 182px;
-    padding-bottom: 10px;
-
-    &.selected {
-      border-bottom: 5px solid #DDDDDD;
-      padding-bottom: 5px;
-    }
-
-    &:hover {
-      border-bottom: 5px solid #FF0000;
-      padding-bottom: 5px;
-    }
-  }
-}
-
-article {
-/*  border-bottom: 1px solid #eeeeee;
-  margin: 20px 0 30px;
-  padding-bottom: 39px;
-*/}
-
-article h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
+}
+
+p {
+  font-family: "Merriweather";
 }
 
 a {
@@ -51,6 +16,15 @@ a:hover {
   text-decoration: none;
 }
 
+article {
+  h2 {
+    background: #f7f7f7;
+    color: #696969;
+    margin: 20px 0 30px;
+    padding: 15px;
+  }
+}
+
 figcaption {
-  /*background-color: #cccccc;*/
+  text-align: center;
 }
