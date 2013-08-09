@@ -33,6 +33,8 @@ page "humans.txt", :layout => false
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+page "/25-things-i-wish-i-had-learned-earlier.html", layout: "layout"
+
 ###
 # Helpers
 ###
