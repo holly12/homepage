@@ -28,13 +28,16 @@ article {
   }
 }
 
+header#info,
 footer {
   background: $light-background;
   color: $hemingwaycafe;
   padding: 15px;
-  text-align: center;
 
-  p {
-    margin-bottom: 0;
+  &.middleman {
+    text-align: center;
+    p {
+      margin-bottom: 0;
+    }
   }
 }
