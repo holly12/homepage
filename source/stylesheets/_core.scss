@@ -1,0 +1,109 @@
+$mobile: 479px;
+
+/***********************
+TYPOGRAPHY
+***********************/
+
+$serif: "chaparral-pro", georgia, serif;
+$sans-serif: "brandon-grotesque", sans-serif;
+
+body {
+  font-family: $serif;
+  }
+ 
+p {
+  font-size: 1.25em;
+  line-height: 1.45;
+  
+  @media only screen and (max-width: $mobile) {
+    font-size: 1.125em;
+    line-height: 1.35;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif;
+  margin-top: 0;
+}
+
+
+/***********************
+HEADER / TOP NAV BAR
+***********************/
+
+$header-bkgd-color: rgba(0, 0, 0, .7);
+
+header {
+  background: $header-bkgd-color;
+  margin-bottom: 1.875em;
+}
+
+.top-bar {
+  background: none;
+  margin-bottom: 0;
+  
+  .name h1 {
+    font-family: $serif;
+    font-size: 2.375em; // 38px
+    margin: 0;
+    
+    @media only screen and (max-width: $mobile) {
+      font-size: 2em;
+    }
+    
+    a {
+      font-weight: 400;
+      
+      @media only screen and (max-width: $mobile) {
+        width: 80%;
+      }
+    }
+  }
+  
+  .top-bar-section {
+    ul {
+      background: none;
+    }
+    
+    ul li > a {
+      font-family: $sans-serif;
+      font-size: 0.9375em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-rendering: optimizelegibility;
+      background: none;
+      padding: 0 15px;
+    }
+    
+    .has-dropdown > a:after {
+      margin-right: 17px;
+    }
+    
+    .has-dropdown > a {
+      padding-right: 30px !important;
+    }
+    
+    .dropdown {
+      background: $header-bkgd-color;
+      
+      li a {
+        padding: 12px 15px;
+      }
+    }
+  }
+}
+
+
+
+/***********************
+BLE
+***********************/
+
+.latest-blog {
+  background-color: red;
+  text-align: right;
+}
+
+.latest-news {
+  background-color: blue;
+}
