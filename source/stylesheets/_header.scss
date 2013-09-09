@@ -1,0 +1,71 @@
+/***********************
+HEADER / TOP NAV BAR
+***********************/
+
+$header-bkgd-color: rgba(0, 0, 0, .7);
+
+header {
+  background: $header-bkgd-color;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.top-bar {
+  background: none;
+  margin-bottom: 0;
+  
+  ul {
+    font-size: 1em;
+  }
+  
+  .name h1 {
+    font-family: $serif;
+    font-size: 2.375em; // 38px
+    margin: 0;
+    
+    @media only screen and (max-width: $mobile) {
+      font-size: 2em;
+    }
+    
+    a {
+      font-weight: 400;
+      
+      @media only screen and (max-width: $mobile) {
+        width: 80%;
+      }
+    }
+  }
+  
+  .top-bar-section {
+    ul {
+      background: none;
+    }
+    
+    ul li > a {
+      font-family: $sans-serif;
+      font-size: 0.9375em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-rendering: optimizelegibility;
+      background: none;
+      padding: 0 15px;
+    }
+    
+    .has-dropdown > a:after {
+      margin-right: 17px;
+    }
+    
+    .has-dropdown > a {
+      padding-right: 30px !important;
+    }
+    
+    .dropdown {
+      background: $header-bkgd-color;
+      
+      li a {
+        padding: 12px 15px;
+      }
+    }
+  }
+}
