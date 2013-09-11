@@ -30,10 +30,8 @@ header {
     
     a {
       font-weight: 400;
-      
-      @media only screen and (max-width: $mobile) {
-        width: 80%;
-      }
+      padding: 0;
+      width: inherit;
     }
   }
   

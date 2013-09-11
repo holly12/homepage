@@ -1,12 +1,19 @@
 /***********************
-HOME PAGE HERO SECTION
+HEADER BANNER SECTION
 ***********************/
-.hero {
-  background: url("../images/700.jpg") no-repeat scroll center center / cover transparent;
+.header-banner {
   padding: 7em 0 2.6em 0;
   
   p {
     margin-bottom: 0;
+  }
+  
+  &.home {
+    background: url("../images/700.jpg") no-repeat scroll center center / cover transparent;
+  }
+  
+  &.bio {
+    background: url("../images/700.jpg") no-repeat scroll center center / cover transparent;
   }
 }
 
